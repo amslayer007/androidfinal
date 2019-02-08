@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookSlotActivity"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <EditText android:id="@+id/BSID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:inputType="numberDecimal"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <EditText android:id="@+id/BSDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:inputType="date"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <EditText android:id="@+id/BSTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:inputType="time"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Slot"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <RadioGroup
+        android:id="@+id/radioslot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioslot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slot 1"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioslot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slot 2" />
+
+        <RadioButton
+            android:id="@+id/radioslot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slot 3" />
+
+        <RadioButton
+            android:id="@+id/radioslot4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slot 4" />
+
+    </RadioGroup>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnDisplay"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/btn_display" -->
+        <!--/>-->
+
+
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Startup Name"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <EditText android:id="@+id/BSName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+    <EditText android:id="@+id/BSEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/BookSlot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Slot"
+        android:onClick="BookSlot"/>
+
+</LinearLayout>
+
+</ScrollView>

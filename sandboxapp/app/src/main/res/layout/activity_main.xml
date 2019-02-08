@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="SANDBOX STARTUPS" />
+
+    <Button android:id="@+id/button1"
+        android:onClick="events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="events" />
+
+    <Button android:id="@+id/button2"
+        android:onClick="Mentors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mentors" />
+
+    <Button android:id="@+id/button3"
+        android:onClick="MeetingRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meeting Room" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Startup Committees"
+        android:onClick="StartupCommittees"
+        android:id="@+id/button4"/>
+
+
+
+</LinearLayout>
